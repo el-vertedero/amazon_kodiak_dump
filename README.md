@@ -1,0 +1,14 @@
+# juniper-user 4.4.4 KTU84P 35.4.6.6_user_466001420 release-keys
+- manufacturer: amazon
+- platform: msm8974
+- codename: kodiak
+- flavor: user
+- release: 4.4.4
+- id: KTU84P
+- incremental: 35.4.6.6_user_466001420
+- tags: release-keys
+- fingerprint: Amazon/juniper/kodiak:4.4.4/KTU84P/35.4.6.6_user_466001420:user/release-keys
+- is_ab: false
+- brand: Amazon
+- branch: juniper-user-4.4.4-KTU84P-35.4.6.6_user_466001420-release-keys
+- repo: amazon_kodiak_dump
