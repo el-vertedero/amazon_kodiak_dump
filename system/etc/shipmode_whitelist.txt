@@ -1,0 +1,13 @@
+fdrw.conf V1.0
+
+2 /data/app
+2 /data/dalvik-cache
+2 /data/resource-cache
+2 /data/app-res
+2 /data/app-lib
+2 /data/system/packages.list
+2 /data/system/packages.xml
+3 /data/media/0/Android/data/com.amazon.kindle/files/dictionaries
+4 /data/securedStorageLocation/com.amazon.providers.contentsupport/tts/ivona
+5 /data/system/uiderrors.txt
+6 /data/system/dropbox

@@ -1,0 +1,149 @@
+fragment_program gaussian_blur_f_7 glsles
+{
+    source gaussian_blur_f_7.glsles
+    profile glsles
+    default_params
+    {
+    }
+}
+
+vertex_program gaussian_blur_v_7 glsles
+{
+    source gaussian_blur_v_7.glsles
+    profile glsles
+    default_params
+    {
+        param_named_auto worldViewProj worldviewproj_matrix
+    }
+}
+
+fragment_program gaussian_blur_f_15 glsles
+{
+    source gaussian_blur_f_15.glsles
+    profile glsles
+    default_params
+    {
+    }
+}
+
+vertex_program gaussian_blur_v_15 glsles
+{
+    source gaussian_blur_v_15.glsles
+    profile glsles
+    default_params
+    {
+        param_named_auto worldViewProj worldviewproj_matrix
+    }
+}
+
+material gaussian_blur_h_7
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+
+            vertex_program_ref gaussian_blur_v_7
+            {
+                param_named offset_dir float2 1.0 0.0
+                param_named inv_source_size float2 0.0027 0.0015
+            }
+
+            fragment_program_ref gaussian_blur_f_7
+            {
+            }
+
+            texture_unit RT
+            {
+                tex_coord_set       0
+                tex_address_mode    clamp
+                filtering       linear linear none
+            }
+        }
+    }
+}
+
+material gaussian_blur_v_7
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+
+            vertex_program_ref gaussian_blur_v_7
+            {
+                param_named offset_dir float2 0.0 1.0
+                param_named inv_source_size float2 0.0027 0.0015
+            }
+
+            fragment_program_ref gaussian_blur_f_7
+            {
+            }
+
+            texture_unit RT
+            {
+                tex_coord_set       0
+                tex_address_mode    clamp
+                filtering       linear linear none
+            }
+        }
+    }
+}
+
+material gaussian_blur_h_15
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+
+            vertex_program_ref gaussian_blur_v_15
+            {
+                param_named offset_dir float2 1.0 0.0
+                param_named inv_source_size float2 0.0027 0.0015
+            }
+
+            fragment_program_ref gaussian_blur_f_15
+            {
+            }
+
+            texture_unit RT
+            {
+                tex_coord_set       0
+                tex_address_mode    clamp
+                filtering       linear linear none
+            }
+        }
+    }
+}
+
+material gaussian_blur_v_15
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+
+            vertex_program_ref gaussian_blur_v_15
+            {
+                param_named offset_dir float2 0.0 1.0
+                param_named inv_source_size float2 0.0027 0.0015
+            }
+
+            fragment_program_ref gaussian_blur_f_15
+            {
+            }
+
+            texture_unit RT
+            {
+                tex_coord_set       0
+                tex_address_mode    clamp
+                filtering       linear linear none
+            }
+        }
+    }
+}

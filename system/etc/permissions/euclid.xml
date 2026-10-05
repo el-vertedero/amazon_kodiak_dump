@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="euclidlibrary"
+            file="/system/framework/euclidlibrary.jar"/>
+            
+    <library name="com.amazon.headtracking.filter"
+            file="/system/framework/com.amazon.headtracking.filter.jar"/>
+
+    <feature name="com.amazon.software.euclid"/>
+    <feature name="com.amazon.software.headtracking.filter"/>
+
+</permissions>

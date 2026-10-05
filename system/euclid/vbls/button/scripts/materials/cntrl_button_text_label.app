@@ -1,0 +1,13 @@
+MaterialSpec: Base
+
+uses Texture: Sampler2DColor
+uses PhongAmbient
+uses Transparency
+uses UV: BaseUV
+
+attr string texture = "euclid_placeholder_image.dds"
+attr string texture_min = "linear"
+attr string texture_mag = "linear"
+attr string texture_mip = "none"
+attr vec3 ambient_color = 1.0 1.0 1.0
+attr string texture_address_mode = "wrap"

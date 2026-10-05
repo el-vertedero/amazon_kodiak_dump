@@ -1,0 +1,5 @@
+--shipmode
+--wipe_data
+--data_restore=/system/etc/shipmode_whitelist.txt
+--restore_max=1440000
+--shutdown_on_success

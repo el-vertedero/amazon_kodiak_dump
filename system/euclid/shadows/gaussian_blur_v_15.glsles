@@ -1,0 +1,50 @@
+precision mediump int;
+precision mediump float;
+
+uniform mat4 worldViewProj;
+
+uniform vec2 offset_dir;
+uniform vec2 inv_source_size;
+
+attribute vec4 vertex;
+
+varying vec2 uv;
+varying vec2 uv_offset1p;
+varying vec2 uv_offset2p;
+varying vec2 uv_offset3p;
+varying vec2 uv_offset4p;
+varying vec2 uv_offset5p;
+varying vec2 uv_offset6p;
+varying vec2 uv_offset7p;
+varying vec2 uv_offset1n;
+varying vec2 uv_offset2n;
+varying vec2 uv_offset3n;
+varying vec2 uv_offset4n;
+varying vec2 uv_offset5n;
+varying vec2 uv_offset6n;
+varying vec2 uv_offset7n;
+
+void main()
+{
+    gl_Position = vertex * worldViewProj;
+
+    vec2 inPos = sign(vertex.xy);
+
+    vec2 offset = offset_dir * inv_source_size;
+
+    uv = (vec2(inPos.x, -inPos.y) + 1.0) / 2.0;
+    uv_offset1n = uv - offset * 1.4923;
+    uv_offset2n = uv - offset * 3.4821;
+    uv_offset3n = uv - offset * 5.471;
+    uv_offset4n = uv - offset * 7.461;
+    uv_offset5n = uv - offset * 9.451;
+    uv_offset6n = uv - offset * 11.441;
+    uv_offset7n = uv - offset * 13.431;
+    uv_offset1p = uv + offset * 1.4923;
+    uv_offset2p = uv + offset * 3.4821;
+    uv_offset3p = uv + offset * 5.471;
+    uv_offset4p = uv + offset * 7.461;
+    uv_offset5p = uv + offset * 9.451;
+    uv_offset6p = uv + offset * 11.441;
+    uv_offset7p = uv + offset * 13.431;
+}

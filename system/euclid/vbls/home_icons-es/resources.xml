@@ -1,0 +1,421 @@
+<VblResources vbl="home_icons-es">
+    <Textures>
+        <Texture id="0" name="audiblestore_tag_d" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="1" name="shade2" format="rgba8888" width="256" height="256" size="65536" />
+        <Texture id="2" name="shade1" format="rgba8888" width="256" height="256" size="65536" />
+        <Texture id="3" name="outer_shine" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="4" name="AppstoreColor" format="rgba8888" width="256" height="256" size="32768" />
+        <Texture id="5" name="gradient" format="rgba8888" width="256" height="256" size="32768" />
+        <Texture id="6" name="circle_shadow_light" format="rgba8888" width="256" height="256" size="65536" />
+        <Texture id="7" name="appsstore_tag_d" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="8" name="euclid_placeholder_image" format="rgb888" width="4" height="4" size="8" />
+        <Texture id="9" name="audiobook_lib_tag" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="10" name="bookstore_tag_d" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="11" name="Textures_Newsstand_Kindle_01" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="12" name="docs" format="rgb888" width="512" height="512" size="131072" />
+        <Texture id="13" name="shadow" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="14" name="xls" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="15" name="pdf" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="16" name="pages_d" format="rgba8888" width="512" height="512" size="131072" />
+        <Texture id="17" name="books_lib_tag" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="18" name="shadow_ncl1_1" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="19" name="documents_appsgrid_d" format="rgb888" width="256" height="256" size="32768" />
+        <Texture id="20" name="mail_d" format="rgb888" width="512" height="512" size="131072" />
+        <Texture id="21" name="email_env_map_dark" format="rgb888" width="256" height="256" size="32768" />
+        <Texture id="22" name="games_library_tag" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="23" name="claydoodle" format="rgb888" width="512" height="512" size="131072" />
+        <Texture id="24" name="Monkey" format="rgb888" width="512" height="512" size="131072" />
+        <Texture id="25" name="Puzzle" format="rgb888" width="512" height="512" size="131072" />
+        <Texture id="26" name="maps_d" format="rgba8888" width="512" height="512" size="131072" />
+        <Texture id="27" name="maps_page_d" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="28" name="musicstore_tag_d" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="29" name="gradient_ncl1_1" format="rgb888" width="256" height="256" size="32768" />
+        <Texture id="30" name="MShop_n" format="rgb888" width="1024" height="1024" size="524288" />
+        <Texture id="31" name="MShop_s" format="rgb888" width="1024" height="1024" size="524288" />
+        <Texture id="32" name="MShop_d" format="rgb888" width="1024" height="1024" size="524288" />
+        <Texture id="33" name="Textures_Newsstand_Kindle_03" format="rgba8888" width="256" height="256" size="65536" />
+        <Texture id="34" name="Textures_Newsstand_Kindle_02" format="rgb888" width="512" height="512" size="131072" />
+        <Texture id="35" name="newsstand_cover3_shaded" format="rgb888" width="256" height="256" size="32768" />
+        <Texture id="36" name="newsstand_tag_d" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="37" name="music_lib_tag" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="38" name="notes_n" format="rgb888" width="512" height="512" size="131072" />
+        <Texture id="39" name="notes_d" format="rgb888" width="512" height="512" size="131072" />
+        <Texture id="40" name="videostoretag_d" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="41" name="green" format="rgb888" width="512" height="512" size="131072" />
+        <Texture id="42" name="shadow_light" format="rgba8888" width="256" height="256" size="65536" />
+    </Textures>
+    <Scenes>
+        <Scene id="0" name="icon_audiblestore">
+            <Meshes>
+                <Mesh id="0" name="icon_audiblestore" vertex_count="1415" triangle_count="828" joint_count="0" submesh_count="10" size="50248" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+                <Uses-texture>1</Uses-texture>
+                <Uses-texture>2</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_audiblestore_Green" />
+                <Material id="1" name="icon_audiblestore_lambert2" />
+                <Material id="2" name="icon_audiblestore_lambert3" />
+                <Material id="3" name="icon_audiblestore_phong10" />
+                <Material id="4" name="icon_audiblestore_phong11" />
+                <Material id="5" name="icon_audiblestore_phong12" />
+                <Material id="6" name="icon_audiblestore_phong13" />
+                <Material id="7" name="icon_audiblestore_phong14" />
+                <Material id="8" name="icon_audiblestore_tagmat1" />
+                <Material id="9" name="icon_audiblestore_tagstringmat" />
+            </Materials>
+        </Scene>
+        <Scene id="1" name="icon_appstore">
+            <Meshes>
+                <Mesh id="0" name="icon_appstore" vertex_count="5507" triangle_count="7404" joint_count="0" submesh_count="6" size="220648" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>3</Uses-texture>
+                <Uses-texture>4</Uses-texture>
+                <Uses-texture>5</Uses-texture>
+                <Uses-texture>6</Uses-texture>
+                <Uses-texture>7</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_appstore_Green3" />
+                <Material id="1" name="icon_appstore_lambert2" />
+                <Material id="2" name="icon_appstore_lambert3" />
+                <Material id="3" name="icon_appstore_stringmat" />
+                <Material id="4" name="icon_appstore_tagmat" />
+                <Material id="5" name="icon_appstore_white" />
+            </Materials>
+        </Scene>
+        <Scene id="2" name="icon_audiobook_library">
+            <Meshes>
+                <Mesh id="0" name="icon_audiobook_library" vertex_count="808" triangle_count="1344" joint_count="0" submesh_count="5" size="33920" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>8</Uses-texture>
+                <Uses-texture>9</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_audiobook_library_cover" />
+                <Material id="1" name="icon_audiobook_library_cover2" />
+                <Material id="2" name="icon_audiobook_library_cover3" />
+                <Material id="3" name="icon_audiobook_library_pasted__tagmat1" />
+                <Material id="4" name="icon_audiobook_library_stringmat" />
+            </Materials>
+        </Scene>
+        <Scene id="3" name="icon_bookstore">
+            <Meshes>
+                <Mesh id="0" name="icon_bookstore" vertex_count="964" triangle_count="1214" joint_count="0" submesh_count="4" size="36236" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>10</Uses-texture>
+                <Uses-texture>11</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_bookstore_ic_bookstore_appsgrid_cover" />
+                <Material id="1" name="icon_bookstore_lambert2" />
+                <Material id="2" name="icon_bookstore_stringmat" />
+                <Material id="3" name="icon_bookstore_tagmat" />
+            </Materials>
+        </Scene>
+        <Scene id="4" name="icon_documents">
+            <Meshes>
+                <Mesh id="0" name="icon_documents" vertex_count="144" triangle_count="136" joint_count="0" submesh_count="5" size="5424" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>12</Uses-texture>
+                <Uses-texture>13</Uses-texture>
+                <Uses-texture>14</Uses-texture>
+                <Uses-texture>15</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_documents_lambert3" />
+                <Material id="1" name="icon_documents_phong1" />
+                <Material id="2" name="icon_documents_phong2" />
+                <Material id="3" name="icon_documents_phong3" />
+            </Materials>
+        </Scene>
+        <Scene id="5" name="icon_books_library">
+            <Meshes>
+                <Mesh id="0" name="icon_books_library" vertex_count="2572" triangle_count="3410" joint_count="0" submesh_count="7" size="102764" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>16</Uses-texture>
+                <Uses-texture>8</Uses-texture>
+                <Uses-texture>17</Uses-texture>
+                <Uses-texture>18</Uses-texture>
+            </Textures>
+            <StateMachines>
+                <StateMachine id="0" name="sm_hero_icon" />
+            </StateMachines>
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_books_library_coverMat" />
+                <Material id="1" name="icon_books_library_coverMat1" />
+                <Material id="2" name="icon_books_library_coverMat2" />
+                <Material id="3" name="icon_books_library_paperMat" />
+                <Material id="4" name="icon_books_library_shadow_plane_lambert4" />
+                <Material id="5" name="icon_books_library_tagmat1" />
+                <Material id="6" name="icon_books_library_tagstringmat" />
+            </Materials>
+        </Scene>
+        <Scene id="6" name="ic_documents_appsgrid">
+            <Meshes>
+                <Mesh id="0" name="ic_documents_appsgrid" vertex_count="8" triangle_count="4" joint_count="0" submesh_count="1" size="280" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>19</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="ic_documents_appsgrid_doc1mat" />
+            </Materials>
+        </Scene>
+        <Scene id="7" name="icon_email">
+            <Meshes>
+                <Mesh id="0" name="icon_email" vertex_count="1391" triangle_count="1260" joint_count="1" submesh_count="2" size="52072" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>20</Uses-texture>
+                <Uses-texture>21</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="icon_email" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="icon_email_mail_clipmat" />
+                <Material id="1" name="icon_email_mail_mat" />
+            </Materials>
+        </Scene>
+        <Scene id="8" name="icon_games_library">
+            <Meshes>
+                <Mesh id="0" name="icon_games_library" vertex_count="481" triangle_count="528" joint_count="0" submesh_count="5" size="18560" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>22</Uses-texture>
+                <Uses-texture>23</Uses-texture>
+                <Uses-texture>24</Uses-texture>
+                <Uses-texture>25</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_games_library_cover" />
+                <Material id="1" name="icon_games_library_cover2" />
+                <Material id="2" name="icon_games_library_cover3" />
+                <Material id="3" name="icon_games_library_stringmat" />
+                <Material id="4" name="icon_games_library_tagmat" />
+            </Materials>
+        </Scene>
+        <Scene id="9" name="icon_map">
+            <Meshes>
+                <Mesh id="0" name="icon_map" vertex_count="3218" triangle_count="1816" joint_count="0" submesh_count="2" size="113872" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>26</Uses-texture>
+                <Uses-texture>27</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_map_maps_pagemat" />
+                <Material id="1" name="icon_map_mapsmat" />
+            </Materials>
+        </Scene>
+        <Scene id="10" name="icon_musicstore">
+            <Meshes>
+                <Mesh id="0" name="icon_musicstore" vertex_count="1102" triangle_count="612" joint_count="0" submesh_count="3" size="38936" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>28</Uses-texture>
+                <Uses-texture>29</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_musicstore_smile3_mshopMat1" />
+                <Material id="1" name="icon_musicstore_stringmat" />
+                <Material id="2" name="icon_musicstore_tagmat" />
+            </Materials>
+        </Scene>
+        <Scene id="11" name="icon_mshop">
+            <Meshes>
+                <Mesh id="0" name="icon_mshop" vertex_count="6156" triangle_count="5226" joint_count="0" submesh_count="4" size="246396" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>30</Uses-texture>
+                <Uses-texture>31</Uses-texture>
+                <Uses-texture>32</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_mshop_mshopMat" />
+                <Material id="1" name="icon_mshop_mshopMat1" />
+                <Material id="2" name="icon_mshop_smileMat" />
+                <Material id="3" name="icon_mshop_textMat" />
+            </Materials>
+        </Scene>
+        <Scene id="12" name="icon_newsstandstore">
+            <Meshes>
+                <Mesh id="0" name="icon_newsstandstore" vertex_count="1028" triangle_count="900" joint_count="0" submesh_count="6" size="38296" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>33</Uses-texture>
+                <Uses-texture>34</Uses-texture>
+                <Uses-texture>35</Uses-texture>
+                <Uses-texture>36</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_newsstandstore_cover1" />
+                <Material id="1" name="icon_newsstandstore_cover2" />
+                <Material id="2" name="icon_newsstandstore_cover3" />
+                <Material id="3" name="icon_newsstandstore_lambert4" />
+                <Material id="4" name="icon_newsstandstore_pagesmat" />
+                <Material id="5" name="icon_newsstandstore_pasted__videostore_tagmat" />
+            </Materials>
+        </Scene>
+        <Scene id="13" name="icon_music_library">
+            <Meshes>
+                <Mesh id="0" name="icon_music_library" vertex_count="808" triangle_count="1344" joint_count="0" submesh_count="5" size="33920" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>37</Uses-texture>
+                <Uses-texture>8</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_music_library_cover" />
+                <Material id="1" name="icon_music_library_cover2" />
+                <Material id="2" name="icon_music_library_cover3" />
+                <Material id="3" name="icon_music_library_stringmat" />
+                <Material id="4" name="icon_music_library_tagmat" />
+            </Materials>
+        </Scene>
+        <Scene id="14" name="icon_newsstand_library">
+            <Meshes>
+                <Mesh id="0" name="icon_newsstand_library" vertex_count="1028" triangle_count="900" joint_count="0" submesh_count="6" size="38296" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>33</Uses-texture>
+                <Uses-texture>8</Uses-texture>
+                <Uses-texture>35</Uses-texture>
+                <Uses-texture>36</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_newsstand_library_cover" />
+                <Material id="1" name="icon_newsstand_library_cover2" />
+                <Material id="2" name="icon_newsstand_library_cover3" />
+                <Material id="3" name="icon_newsstand_library_lambert4" />
+                <Material id="4" name="icon_newsstand_library_pagesmat" />
+                <Material id="5" name="icon_newsstand_library_pasted__videostore_tagmat" />
+            </Materials>
+        </Scene>
+        <Scene id="15" name="icon_notes">
+            <Meshes>
+                <Mesh id="0" name="icon_notes" vertex_count="308" triangle_count="152" joint_count="0" submesh_count="1" size="14464" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>38</Uses-texture>
+                <Uses-texture>39</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_notes_ic_notes_appsgrid_notesmat" />
+            </Materials>
+        </Scene>
+        <Scene id="16" name="icon_videostore_movie">
+            <Meshes>
+                <Mesh id="0" name="icon_videostore_movie" vertex_count="2869" triangle_count="4933" joint_count="0" submesh_count="6" size="121406" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>40</Uses-texture>
+                <Uses-texture>3</Uses-texture>
+                <Uses-texture>41</Uses-texture>
+                <Uses-texture>42</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_videostore_movie_pasted__Green3" />
+                <Material id="1" name="icon_videostore_movie_pasted__lambert2" />
+                <Material id="2" name="icon_videostore_movie_pasted__lambert3" />
+                <Material id="3" name="icon_videostore_movie_pasted__white1" />
+                <Material id="4" name="icon_videostore_movie_stringmat" />
+                <Material id="5" name="icon_videostore_movie_videostore_tagmat" />
+            </Materials>
+        </Scene>
+        <Scene id="17" name="ic_notes_appsgrid">
+            <Meshes>
+                <Mesh id="0" name="ic_notes_appsgrid" vertex_count="308" triangle_count="152" joint_count="0" submesh_count="1" size="14464" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>38</Uses-texture>
+                <Uses-texture>39</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="ic_notes_appsgrid_notesmat" />
+            </Materials>
+        </Scene>
+        <Scene id="18" name="icon_videostore_tv">
+            <Meshes>
+                <Mesh id="0" name="icon_videostore_tv" vertex_count="2869" triangle_count="4933" joint_count="0" submesh_count="6" size="121406" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>40</Uses-texture>
+                <Uses-texture>3</Uses-texture>
+                <Uses-texture>41</Uses-texture>
+                <Uses-texture>42</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="icon_videostore_tv_pasted__Green3" />
+                <Material id="1" name="icon_videostore_tv_pasted__lambert2" />
+                <Material id="2" name="icon_videostore_tv_pasted__lambert3" />
+                <Material id="3" name="icon_videostore_tv_pasted__white1" />
+                <Material id="4" name="icon_videostore_tv_stringmat" />
+                <Material id="5" name="icon_videostore_tv_videostore_tagmat" />
+            </Materials>
+        </Scene>
+    </Scenes>
+</VblResources>

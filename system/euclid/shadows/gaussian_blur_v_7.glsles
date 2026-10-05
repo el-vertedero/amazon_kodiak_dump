@@ -1,0 +1,33 @@
+precision mediump int;
+precision mediump float;
+
+uniform mat4 worldViewProj;
+
+uniform vec2 offset_dir;
+uniform vec2 inv_source_size;
+
+attribute vec4 vertex;
+
+varying vec2 uv;
+varying vec2 uv_offset1p;
+varying vec2 uv_offset2p;
+varying vec2 uv_offset3p;
+varying vec2 uv_offset1n;
+varying vec2 uv_offset2n;
+varying vec2 uv_offset3n;
+
+void main()
+{
+    gl_Position = vertex * worldViewProj;
+
+    vec2 inPos = sign(vertex.xy);
+    vec2 offset = offset_dir * inv_source_size;
+
+    uv = (vec2(inPos.x, -inPos.y) + 1.0) / 2.0;
+    uv_offset1n = uv - offset * 1.41;
+    uv_offset2n = uv - offset * 3.29;
+    uv_offset3n = uv - offset * 5.20;
+    uv_offset1p = uv + offset * 1.41;
+    uv_offset2p = uv + offset * 3.29;
+    uv_offset3p = uv + offset * 5.20;
+}

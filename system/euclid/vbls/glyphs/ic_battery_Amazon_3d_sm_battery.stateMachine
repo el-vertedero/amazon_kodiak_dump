@@ -1,0 +1,349 @@
+
+
+	charge_50
+
+	charge_40
+
+idle
+
+	charge_70
+
+
+charge_5
+
+	charge_15
+
+
+charge_0
+
+	charge_20
+
+	charge_80
+	
+unknown
+
+	charge_90
+
+	charge_30
+
+error
+
+	charge_60
+
+
+charge_100.
+	charge_50	charge_40charge_50_to_charge_40,
+	charge_50	charge_70charge_50_to_unknown+
+	charge_50charge_5charge_50_to_unknown,
+	charge_50	charge_15charge_50_to_unknown+
+	charge_50charge_0charge_50_to_unknown,
+	charge_50	charge_20charge_50_to_unknown,
+	charge_50	charge_80charge_50_to_unknown*
+	charge_50unknowncharge_50_to_unknown,
+	charge_50	charge_90charge_50_to_unknown,
+	charge_50	charge_30charge_50_to_unknown&
+	charge_50errorcharge_50_to_error.
+	charge_50	charge_60charge_50_to_charge_60-
+	charge_50
+charge_100charge_50_to_unknown.
+	charge_40	charge_50charge_40_to_charge_50,
+	charge_40	charge_70charge_40_to_unknown+
+	charge_40charge_5charge_40_to_unknown,
+	charge_40	charge_15charge_40_to_unknown+
+	charge_40charge_0charge_40_to_unknown,
+	charge_40	charge_20charge_40_to_unknown,
+	charge_40	charge_80charge_40_to_unknown*
+	charge_40unknowncharge_40_to_unknown,
+	charge_40	charge_90charge_40_to_unknown.
+	charge_40	charge_30charge_40_to_charge_30&
+	charge_40errorcharge_40_to_error,
+	charge_40	charge_60charge_40_to_unknown-
+	charge_40
+charge_100charge_40_to_unknown$
+idle	charge_50idle_to_charge_50$
+idle	charge_40idle_to_charge_40$
+idle	charge_70idle_to_charge_70"
+idlecharge_5idle_to_charge_5$
+idle	charge_15idle_to_charge_15"
+idlecharge_0idle_to_charge_0$
+idle	charge_20idle_to_charge_20$
+idle	charge_80idle_to_charge_80 
+idleunknownidle_to_unknown$
+idle	charge_90idle_to_charge_90$
+idle	charge_30idle_to_charge_30
+idleerroridle_to_error$
+idle	charge_60idle_to_charge_60&
+idle
+charge_100idle_to_charge_100,
+	charge_70	charge_50charge_70_to_unknown,
+	charge_70	charge_40charge_70_to_unknown+
+	charge_70charge_5charge_70_to_unknown,
+	charge_70	charge_15charge_70_to_unknown+
+	charge_70charge_0charge_70_to_unknown,
+	charge_70	charge_20charge_70_to_unknown.
+	charge_70	charge_80charge_70_to_charge_80*
+	charge_70unknowncharge_70_to_unknown,
+	charge_70	charge_90charge_70_to_unknown,
+	charge_70	charge_30charge_70_to_unknown&
+	charge_70errorcharge_70_to_error.
+	charge_70	charge_60charge_70_to_charge_60-
+	charge_70
+charge_100charge_70_to_unknown*
+charge_5	charge_50charge_5_to_unknown*
+charge_5	charge_40charge_5_to_unknown*
+charge_5	charge_70charge_5_to_unknown,
+charge_5	charge_15charge_5_to_charge_15*
+charge_5charge_0charge_5_to_charge_0*
+charge_5	charge_20charge_5_to_unknown*
+charge_5	charge_80charge_5_to_unknown(
+charge_5unknowncharge_5_to_unknown*
+charge_5	charge_90charge_5_to_unknown*
+charge_5	charge_30charge_5_to_unknown$
+charge_5errorcharge_5_to_error*
+charge_5	charge_60charge_5_to_unknown+
+charge_5
+charge_100charge_5_to_unknown,
+	charge_15	charge_50charge_15_to_unknown,
+	charge_15	charge_40charge_15_to_unknown,
+	charge_15	charge_70charge_15_to_unknown,
+	charge_15charge_5charge_15_to_charge_5+
+	charge_15charge_0charge_15_to_unknown.
+	charge_15	charge_20charge_15_to_charge_20,
+	charge_15	charge_80charge_15_to_unknown*
+	charge_15unknowncharge_15_to_unknown,
+	charge_15	charge_90charge_15_to_unknown,
+	charge_15	charge_30charge_15_to_unknown&
+	charge_15errorcharge_15_to_error,
+	charge_15	charge_60charge_15_to_unknown-
+	charge_15
+charge_100charge_15_to_unknown*
+charge_0	charge_50charge_0_to_unknown*
+charge_0	charge_40charge_0_to_unknown*
+charge_0	charge_70charge_0_to_unknown*
+charge_0charge_5charge_0_to_charge_5*
+charge_0	charge_15charge_0_to_unknown*
+charge_0	charge_20charge_0_to_unknown*
+charge_0	charge_80charge_0_to_unknown(
+charge_0unknowncharge_0_to_unknown*
+charge_0	charge_90charge_0_to_unknown*
+charge_0	charge_30charge_0_to_unknown$
+charge_0errorcharge_0_to_error*
+charge_0	charge_60charge_0_to_unknown+
+charge_0
+charge_100charge_0_to_unknown,
+	charge_20	charge_50charge_20_to_unknown,
+	charge_20	charge_40charge_20_to_unknown,
+	charge_20	charge_70charge_20_to_unknown+
+	charge_20charge_5charge_20_to_unknown.
+	charge_20	charge_15charge_20_to_charge_15+
+	charge_20charge_0charge_20_to_unknown,
+	charge_20	charge_80charge_20_to_unknown*
+	charge_20unknowncharge_20_to_unknown,
+	charge_20	charge_90charge_20_to_unknown.
+	charge_20	charge_30charge_20_to_charge_30&
+	charge_20errorcharge_20_to_error,
+	charge_20	charge_60charge_20_to_unknown-
+	charge_20
+charge_100charge_20_to_unknown,
+	charge_80	charge_50charge_80_to_unknown,
+	charge_80	charge_40charge_80_to_unknown.
+	charge_80	charge_70charge_80_to_charge_70+
+	charge_80charge_5charge_80_to_unknown,
+	charge_80	charge_15charge_80_to_unknown+
+	charge_80charge_0charge_80_to_unknown,
+	charge_80	charge_20charge_80_to_unknown*
+	charge_80unknowncharge_80_to_unknown.
+	charge_80	charge_90charge_80_to_charge_90,
+	charge_80	charge_30charge_80_to_unknown&
+	charge_80errorcharge_80_to_error,
+	charge_80	charge_60charge_80_to_unknown-
+	charge_80
+charge_100charge_80_to_unknown*
+unknown	charge_50unknown_to_charge_50*
+unknown	charge_40unknown_to_charge_40*
+unknown	charge_70unknown_to_charge_70(
+unknowncharge_5unknown_to_charge_5*
+unknown	charge_15unknown_to_charge_15(
+unknowncharge_0unknown_to_charge_0*
+unknown	charge_20unknown_to_charge_20*
+unknown	charge_80unknown_to_charge_80*
+unknown	charge_90unknown_to_charge_90*
+unknown	charge_30unknown_to_charge_30%
+unknownerrorunknown_to_charge_5*
+unknown	charge_60unknown_to_charge_60,
+unknown
+charge_100unknown_to_charge_100,
+	charge_90	charge_50charge_90_to_unknown,
+	charge_90	charge_40charge_90_to_unknown,
+	charge_90	charge_70charge_90_to_unknown+
+	charge_90charge_5charge_90_to_unknown,
+	charge_90	charge_15charge_90_to_unknown+
+	charge_90charge_0charge_90_to_unknown,
+	charge_90	charge_20charge_90_to_unknown.
+	charge_90	charge_80charge_90_to_charge_80*
+	charge_90unknowncharge_90_to_unknown,
+	charge_90	charge_30charge_90_to_unknown&
+	charge_90errorcharge_90_to_error,
+	charge_90	charge_60charge_90_to_unknown0
+	charge_90
+charge_100charge_90_to_charge_100,
+	charge_30	charge_50charge_30_to_unknown.
+	charge_30	charge_40charge_30_to_charge_40,
+	charge_30	charge_70charge_30_to_unknown+
+	charge_30charge_5charge_30_to_unknown,
+	charge_30	charge_15charge_30_to_unknown+
+	charge_30charge_0charge_30_to_unknown.
+	charge_30	charge_20charge_30_to_charge_20,
+	charge_30	charge_80charge_30_to_unknown*
+	charge_30unknowncharge_30_to_unknown,
+	charge_30	charge_90charge_30_to_unknown&
+	charge_30errorcharge_30_to_error,
+	charge_30	charge_60charge_30_to_unknown-
+	charge_30
+charge_100charge_30_to_unknown&
+error	charge_50error_to_charge_50&
+error	charge_40error_to_charge_40&
+error	charge_70error_to_charge_70$
+errorcharge_5error_to_charge_5&
+error	charge_15error_to_charge_15$
+errorcharge_0error_to_charge_0&
+error	charge_20error_to_charge_20&
+error	charge_80error_to_charge_80#
+errorunknownerror_to_charge_5&
+error	charge_90error_to_charge_90&
+error	charge_30error_to_charge_30&
+error	charge_60error_to_charge_60(
+error
+charge_100error_to_charge_100.
+	charge_60	charge_50charge_60_to_charge_50,
+	charge_60	charge_40charge_60_to_unknown.
+	charge_60	charge_70charge_60_to_charge_70+
+	charge_60charge_5charge_60_to_unknown,
+	charge_60	charge_15charge_60_to_unknown+
+	charge_60charge_0charge_60_to_unknown,
+	charge_60	charge_20charge_60_to_unknown,
+	charge_60	charge_80charge_60_to_unknown*
+	charge_60unknowncharge_60_to_unknown,
+	charge_60	charge_90charge_60_to_unknown,
+	charge_60	charge_30charge_60_to_unknown&
+	charge_60errorcharge_60_to_error-
+	charge_60
+charge_100charge_60_to_unknown.
+
+charge_100	charge_50charge_100_to_unknown.
+
+charge_100	charge_40charge_100_to_unknown.
+
+charge_100	charge_70charge_100_to_unknown-
+
+charge_100charge_5charge_100_to_unknown.
+
+charge_100	charge_15charge_100_to_unknown-
+
+charge_100charge_0charge_100_to_unknown.
+
+charge_100	charge_20charge_100_to_unknown.
+
+charge_100	charge_80charge_100_to_unknown,
+
+charge_100unknowncharge_100_to_unknown0
+
+charge_100	charge_90charge_100_to_charge_90.
+
+charge_100	charge_30charge_100_to_unknown(
+
+charge_100errorcharge_100_to_error.
+
+charge_100	charge_60charge_100_to_unknown5
+charge_50_to_unknown  €?unknownunknown/
+charge_50_to_error  €?	error	error;
+charge_50_to_charge_40  €?	charge_40	charge_40;
+charge_50_to_charge_60  €?	charge_60	charge_605
+charge_40_to_unknown  €?unknownunknown/
+charge_40_to_error  €?	error	error;
+charge_40_to_charge_30  €?	charge_30	charge_30;
+charge_40_to_charge_50  €?	charge_50	charge_50*
+idle_to_error  €?	error	error0
+idle_to_unknown  €?unknownunknown3
+idle_to_charge_0  €?charge_0charge_03
+idle_to_charge_5  €?charge_5charge_56
+idle_to_charge_15  €?	charge_15	charge_156
+idle_to_charge_20  €?	charge_20	charge_206
+idle_to_charge_30  €?	charge_30	charge_306
+idle_to_charge_40  €?	charge_40	charge_406
+idle_to_charge_50  €?	charge_50	charge_506
+idle_to_charge_60  €?	charge_60	charge_606
+idle_to_charge_70  €?	charge_70	charge_706
+idle_to_charge_80  €?	charge_80	charge_806
+idle_to_charge_90  €?	charge_90	charge_909
+idle_to_charge_100  €?
+charge_100
+charge_1005
+charge_70_to_unknown  €?unknownunknown/
+charge_70_to_error  €?	error	error;
+charge_70_to_charge_60  €?	charge_60	charge_60;
+charge_70_to_charge_80  €?	charge_80	charge_804
+charge_5_to_unknown  €?unknownunknown.
+charge_5_to_error  €?	error	error7
+charge_5_to_charge_0  €?charge_0charge_0:
+charge_5_to_charge_15  €?	charge_15	charge_155
+charge_15_to_unknown  €?unknownunknown/
+charge_15_to_error  €?	error	error8
+charge_15_to_charge_5  €?charge_5charge_5;
+charge_15_to_charge_20  €?	charge_20	charge_204
+charge_0_to_unknown  €?unknownunknown.
+charge_0_to_error  €?	error	error7
+charge_0_to_charge_5  €?charge_5charge_55
+charge_20_to_unknown  €?unknownunknown/
+charge_20_to_error  €?	error	error;
+charge_20_to_charge_15  €?	charge_15	charge_15;
+charge_20_to_charge_30  €?	charge_30	charge_305
+charge_80_to_unknown  €?unknownunknown/
+charge_80_to_error  €?	error	error;
+charge_80_to_charge_70  €?	charge_70	charge_70;
+charge_80_to_charge_90  €?	charge_90	charge_906
+unknown_to_charge_5  €?charge_5charge_56
+unknown_to_charge_0  €?charge_0charge_09
+unknown_to_charge_15  €?	charge_15	charge_159
+unknown_to_charge_20  €?	charge_20	charge_209
+unknown_to_charge_30  €?	charge_30	charge_309
+unknown_to_charge_40  €?	charge_40	charge_409
+unknown_to_charge_50  €?	charge_50	charge_509
+unknown_to_charge_60  €?	charge_60	charge_609
+unknown_to_charge_70  €?	charge_70	charge_709
+unknown_to_charge_80  €?	charge_80	charge_809
+unknown_to_charge_90  €?	charge_90	charge_90<
+unknown_to_charge_100  €?
+charge_100
+charge_1005
+charge_90_to_unknown  €?unknownunknown/
+charge_90_to_error  €?	error	error;
+charge_90_to_charge_80  €?	charge_80	charge_80>
+charge_90_to_charge_100  €?
+charge_100
+charge_1005
+charge_30_to_unknown  €?unknownunknown/
+charge_30_to_error  €?	error	error;
+charge_30_to_charge_20  €?	charge_20	charge_20;
+charge_30_to_charge_40  €?	charge_40	charge_404
+error_to_charge_5  €?charge_5charge_54
+error_to_charge_0  €?charge_0charge_07
+error_to_charge_15  €?	charge_15	charge_157
+error_to_charge_20  €?	charge_20	charge_207
+error_to_charge_30  €?	charge_30	charge_307
+error_to_charge_40  €?	charge_40	charge_407
+error_to_charge_50  €?	charge_50	charge_507
+error_to_charge_60  €?	charge_60	charge_607
+error_to_charge_70  €?	charge_70	charge_707
+error_to_charge_80  €?	charge_80	charge_807
+error_to_charge_90  €?	charge_90	charge_90:
+error_to_charge_100  €?
+charge_100
+charge_1005
+charge_60_to_unknown  €?unknownunknown/
+charge_60_to_error  €?	error	error;
+charge_60_to_charge_50  €?	charge_50	charge_50;
+charge_60_to_charge_70  €?	charge_70	charge_706
+charge_100_to_unknown  €?unknownunknown0
+charge_100_to_error  €?	error	error<
+charge_100_to_charge_90  €?	charge_90	charge_90"idle

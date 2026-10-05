@@ -1,0 +1,14 @@
+precision mediump float;
+precision mediump int;
+
+attribute vec4 position;
+uniform mat4 wvp;
+
+attribute vec2 uv;
+varying vec2 v_uv;
+
+void main()
+{
+    gl_Position = wvp * position;
+    v_uv = uv;
+}

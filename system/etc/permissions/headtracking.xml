@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- enables applications to query for this software feature
+         through PackageManager. This must be consistent with
+         the value of HeadTrackingManager.FEATURE_HEAD_TRACKING -->
+    <feature name="com.amazon.software.headtracking" />
+    <library name="com.amazon.headtracking"
+             file="/system/framework/com.amazon.headtracking.jar"/>
+</permissions>

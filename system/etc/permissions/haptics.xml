@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <feature name="com.amazon.software.haptics" />
+    <library name="com.amazon.device.haptics"
+             file="/system/framework/fireossvc.jar"/>
+</permissions>

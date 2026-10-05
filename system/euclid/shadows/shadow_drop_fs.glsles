@@ -1,0 +1,14 @@
+precision mediump float;
+precision mediump int;
+
+varying vec2 v_uv;
+
+uniform sampler2D texture;
+uniform float intensity;
+
+void main()
+{
+    float factor = 1.0 - texture2D(texture, v_uv).r * intensity;
+    gl_FragColor.rgb = vec3(factor);
+    gl_FragColor.a = 1.0;
+}

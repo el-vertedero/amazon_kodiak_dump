@@ -1,0 +1,17 @@
+<VblResources vbl="header">
+    <Textures />
+    <Scenes>
+        <Scene id="0" name="hdr_breadcrumb">
+            <Meshes>
+                <Mesh id="0" name="hdr_breadcrumb" vertex_count="22" triangle_count="12" joint_count="0" submesh_count="1" size="776" />
+            </Meshes>
+            <Animations />
+            <Textures />
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="hdr_breadcrumb_primary" />
+            </Materials>
+        </Scene>
+    </Scenes>
+</VblResources>

@@ -1,0 +1,4 @@
+/data/app/com.amazon.claydoodle.apk
+/data/app/com.amazon.monkeybuddy.apk
+/data/app/com.amazon.planetpuzzles.apk
+/data/media/0/Android/data/com.amazon.kindle/files/dictionaries

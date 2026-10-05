@@ -1,0 +1,19 @@
+uniform mat4 worldViewProjMat;
+uniform mat4 transforms[4];
+uniform mediump int decalCount;
+
+attribute vec4 position;
+
+varying vec2 v_positions[4];
+
+void main(void)
+{
+    gl_Position = worldViewProjMat * position;
+
+    for( int i=0; i<decalCount; i++ ) {
+        vec2 pp = (transforms[i] * position).xy;
+        pp.x = (pp.x + 1.0) * 0.5;
+        pp.y = (1.0f - pp.y) * 0.5;
+        v_positions[i] = pp;
+    }
+}

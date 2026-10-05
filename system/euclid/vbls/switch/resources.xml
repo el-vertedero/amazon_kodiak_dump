@@ -1,0 +1,30 @@
+<VblResources vbl="switch">
+    <Textures>
+        <Texture id="0" name="tex_switch_track" format="rgba8888" width="32" height="32" size="1024" />
+        <Texture id="1" name="switch_shaded" format="rgba8888" width="256" height="256" size="65536" />
+    </Textures>
+    <Scenes>
+        <Scene id="0" name="cntrl_switch">
+            <Meshes>
+                <Mesh id="0" name="cntrl_switch" vertex_count="107" triangle_count="98" joint_count="3" submesh_count="3" size="4012" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="growtrack" track_count="16" size="352" />
+                <Animation id="1" name="indicatorposition" track_count="16" size="352" />
+            </Animations>
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="cntrl_switch" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="cntrl_switch_background" />
+                <Material id="1" name="cntrl_switch_primary" />
+                <Material id="2" name="cntrl_switch_focusmat" />
+            </Materials>
+        </Scene>
+    </Scenes>
+</VblResources>

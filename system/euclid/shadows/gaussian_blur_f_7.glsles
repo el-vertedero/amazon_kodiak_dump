@@ -1,0 +1,31 @@
+precision mediump int;
+precision mediump float;
+
+uniform sampler2D RT;
+uniform vec4 uvRect;
+
+varying vec2 uv;
+varying vec2 uv_offset1p;
+varying vec2 uv_offset2p;
+varying vec2 uv_offset3p;
+varying vec2 uv_offset1n;
+varying vec2 uv_offset2n;
+varying vec2 uv_offset3n;
+
+void main()
+{
+    vec4 center = texture2D(RT, uv);
+    vec4 tap1p = texture2D(RT, min(uv_offset1p, uvRect.zw));
+    vec4 tap2p = texture2D(RT, min(uv_offset2p, uvRect.zw));
+    vec4 tap3p = texture2D(RT, min(uv_offset3p, uvRect.zw));
+    vec4 tap1n = texture2D(RT, max(uv_offset1n, uvRect.xy));
+    vec4 tap2n = texture2D(RT, max(uv_offset2n, uvRect.xy));
+    vec4 tap3n = texture2D(RT, max(uv_offset3n, uvRect.xy));
+
+    vec4 color = 0.25 * center +
+            0.347 * (tap1p + tap1n) +
+            0.149 * (tap2p + tap2n) +
+            0.061 * (tap3p + tap3n);
+
+    gl_FragColor = vec4(color.rgb, center.a);
+}

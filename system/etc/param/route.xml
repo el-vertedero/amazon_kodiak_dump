@@ -1,0 +1,26 @@
+<Routes>
+<Route Type="DefaultRoutes">
+<!-- Technology based routing -->
+
+<Tech Id="NfcA" SecElem="402" SwitchOn="true" SwitchOff="true" BatteryOff="false"/>
+<Tech Id="NfcB" SecElem="402" SwitchOn="true" SwitchOff="true" BatteryOff="false"/>
+
+<!-- Protocol based routing -->
+<Proto Id="IsoDep" SecElem="402" SwitchOn="true" SwitchOff="true" BatteryOff="false"/>
+</Route>
+
+<Route Type="SecElemSelectedRoutes">
+
+
+<Tech Id="NfcA" SecElem="402" SwitchOn="true" SwitchOff="true" BatteryOff="false"/>
+<Tech Id="NfcB" SecElem="402" SwitchOn="true" SwitchOff="true" BatteryOff="false"/>
+<Tech Id="NfcF" SecElem="402" SwitchOn="true" SwitchOff="true" BatteryOff="false"/>
+<Proto Id="IsoDep" SecElem="402" SwitchOn="true" SwitchOff="true" BatteryOff="false"/>
+
+<!--
+
+<Tech Id="NfcA" SecElem="4C0" SwitchOn="true" SwitchOff="true" BatteryOff="false"/>
+-->
+</Route>
+
+</Routes>

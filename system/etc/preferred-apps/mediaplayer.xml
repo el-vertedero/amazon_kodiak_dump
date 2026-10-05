@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<preferred-activities>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="3">
+    <set name="com.android.music/.AudioPreview"/>
+    <set name="com.amazon.mp3/.activity.IntentProxyActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="audio/mpeg"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.mp3/.activity.IntentProxyActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="audio/mp3"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="3">
+    <set name="com.android.music/.AudioPreview"/>
+    <set name="com.amazon.mp3/.activity.IntentProxyActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="audio/mp4"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.mp3/.activity.IntentProxyActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="audio/mid"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.mp3/.activity.IntentProxyActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="audio/midi"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="3">
+    <set name="com.android.music/.AudioPreview"/>
+    <set name="com.amazon.mp3/.activity.IntentProxyActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="audio/wav"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.mp3/.activity.IntentProxyActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="audio/x-wav"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.mp3/.activity.IntentProxyActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="audio/ogg"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <set name="com.android.music/.AudioPreview"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="application/ogg"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.mp3/.activity.IntentProxyActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="audio/flac"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="3">
+    <set name="com.android.music/.AudioPreview"/>
+    <set name="com.amazon.mp3/.activity.IntentProxyActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="audio/amr"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.mp3/.activity.IntentProxyActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="audio/aac"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.gallery.app/.activity.ZidaneGalleryVideoPlaybackActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="video/mp4"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.gallery.app/.activity.ZidaneGalleryVideoPlaybackActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="video/avi"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.gallery.app/.activity.ZidaneGalleryVideoPlaybackActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="video/webm"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.gallery.app/.activity.ZidaneGalleryVideoPlaybackActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="video/3gpp"/>
+    </filter>
+  </item>
+  <item name="com.amazon.mediaplayer/.DefaultMediaPlayer" match="600000" set="2">
+    <set name="com.amazon.gallery.app/.activity.ZidaneGalleryVideoPlaybackActivity"/>
+    <set name="com.amazon.mediaplayer/.DefaultMediaPlayer"/>
+    <filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="content"/>
+      <type name="video/x-matroska"/>
+    </filter>
+ </item>
+</preferred-activities>

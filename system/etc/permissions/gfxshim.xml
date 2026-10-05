@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="gfxshim" file="/system/framework/gfxshim.jar"/>
+    <feature name="com.amazon.gfxshim"/>
+</permissions>

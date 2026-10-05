@@ -1,0 +1,13 @@
+<manifest name="indeterminateprogressbar" version="">
+    <contents count="8" sha256="DCDC4ECF05C77098DD289DDF22DAF21CABE34C24722BD25E6B5ED4979A18DC41">
+        <file sha256="6CA48AC0B56218D86A9F2BE86D2F5069865E04249BE65FF7B3D7E6DC647E2DE6">BUILD_INFO</file>
+        <file sha256="19825963C7DA7B0AE332FEF8F703C93E7AAEAA3F818D2D2AE69953688BB74FE1">cntrl_indeterminateprogressbar.matanim</file>
+        <file sha256="19825963C7DA7B0AE332FEF8F703C93E7AAEAA3F818D2D2AE69953688BB74FE1">cntrl_indeterminateprogressbar.propanim</file>
+        <file sha256="39A49CA5D00FAC8C85B481B768F1D4FF9E2FAB6DA716CBEA48BFC63E1CF6E568">cntrl_indeterminateprogressbar.scene</file>
+        <file sha256="35E3E934A3F04A7A26F1206A36141D717D345697D8EE1CA9249C0BC0D390FF8A">models\cntrl_indeterminateprogressbar.mesh</file>
+        <file sha256="608F53537E4ADA4E979AA5FC235F50EC3F16A6DCA75635770E7665EF0F5BC084">models\cntrl_indeterminateprogressbar.skeleton</file>
+        <file sha256="3623FEBBA0919712D0F30C701AC13BC5D28135A89DA3270E1C91A8BDE3883869">scripts\materials\inditprogressmat.app</file>
+        <file sha256="6DC6A9C56EA3236AB97F1B99D29A25D98B17602FD973471C642CE0B2BDD23AAD">textures\indit_prog_d.dds</file>
+    </contents>
+    <filedata />
+</manifest>

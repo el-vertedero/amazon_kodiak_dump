@@ -1,0 +1,53 @@
+precision mediump int;
+precision mediump float;
+
+uniform sampler2D RT;
+uniform vec4 uvRect;
+
+varying vec2 uv;
+varying vec2 uv_offset1p;
+varying vec2 uv_offset2p;
+varying vec2 uv_offset3p;
+varying vec2 uv_offset4p;
+varying vec2 uv_offset5p;
+varying vec2 uv_offset6p;
+varying vec2 uv_offset7p;
+varying vec2 uv_offset1n;
+varying vec2 uv_offset2n;
+varying vec2 uv_offset3n;
+varying vec2 uv_offset4n;
+varying vec2 uv_offset5n;
+varying vec2 uv_offset6n;
+varying vec2 uv_offset7n;
+
+void main()
+{
+    vec4 center = texture2D(RT, uv);
+    vec4 tap1p = texture2D(RT, min(uv_offset1p, uvRect.zw));
+    vec4 tap2p = texture2D(RT, min(uv_offset2p, uvRect.zw));
+    vec4 tap3p = texture2D(RT, min(uv_offset3p, uvRect.zw));
+    vec4 tap4p = texture2D(RT, min(uv_offset4p, uvRect.zw));
+    vec4 tap5p = texture2D(RT, min(uv_offset5p, uvRect.zw));
+    vec4 tap6p = texture2D(RT, min(uv_offset6p, uvRect.zw));
+    vec4 tap7p = texture2D(RT, min(uv_offset7p, uvRect.zw));
+    vec4 tap1n = texture2D(RT, max(uv_offset1n, uvRect.xy));
+    vec4 tap2n = texture2D(RT, max(uv_offset2n, uvRect.xy));
+    vec4 tap3n = texture2D(RT, max(uv_offset3n, uvRect.xy));
+    vec4 tap4n = texture2D(RT, max(uv_offset4n, uvRect.xy));
+    vec4 tap5n = texture2D(RT, max(uv_offset5n, uvRect.xy));
+    vec4 tap6n = texture2D(RT, max(uv_offset6n, uvRect.xy));
+    vec4 tap7n = texture2D(RT, max(uv_offset7n, uvRect.xy));
+
+    // 15 taps [-7, 7], normal distribution with standard deviation of 3.5.
+    // Values are normalized.
+    vec4 color = 0.1 * center +
+            0.1111 * (tap1p + tap1n) +
+            0.1003 * (tap2p + tap2n) +
+            0.0836 * (tap3p + tap3n) +
+            0.0642 * (tap4p + tap4n) +
+            0.0454 * (tap5p + tap5n) +
+            0.0296 * (tap6p + tap6n) +
+            0.0178 * (tap7p + tap7n);
+
+    gl_FragColor = vec4(color.rgb, center.a);
+}

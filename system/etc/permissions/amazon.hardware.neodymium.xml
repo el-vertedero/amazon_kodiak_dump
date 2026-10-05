@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+  PROPRIETARY/CONFIDENTIAL
+
+  Use is subject to license terms.
+-->
+<permissions>
+
+    <feature name="amazon.hardware.4cc.front"/>
+    <feature name="amazon.hardware.4cc.front.irillumination"/>
+
+</permissions>
+

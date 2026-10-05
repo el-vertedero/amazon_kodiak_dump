@@ -1,0 +1,118 @@
+material shadow-drop
+{
+    technique
+    {
+        pass
+        {
+            scene_blend modulate
+            depth_write off
+            depth_bias 6 1
+
+            vertex_program_ref shadow_textured_vs {}
+            fragment_program_ref shadow_drop_fs {}
+
+            texture_unit
+            {
+                filtering linear linear none
+            }
+        }
+    }
+}
+
+material shadow-drop-alpha
+{
+    technique
+    {
+        pass
+        {
+            separate_scene_blend one one one one
+            separate_scene_blend_op add add
+            depth_write off
+            depth_bias 6 1
+
+            vertex_program_ref shadow_textured_vs {}
+            fragment_program_ref shadow_drop_alpha_fs {}
+
+            texture_unit
+            {
+                filtering linear linear none
+            }
+        }
+    }
+}
+
+material shadow-blit
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref shadow_textured_vs {}
+            fragment_program_ref shadow_blit_fs {}
+
+            texture_unit
+            {
+                filtering linear linear none
+            }
+        }
+    }
+}
+
+material shadow-caster
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            depth_write off
+
+            vertex_program_ref shadow_vs {}
+            fragment_program_ref shadow_caster_fs {}
+        }
+    }
+}
+
+material shadow-caster-textured
+{
+    technique
+    {
+        pass
+        {
+            scene_blend src_alpha one_minus_src_alpha
+
+            depth_check off
+            depth_write off
+
+            vertex_program_ref shadow_textured_vs {}
+            fragment_program_ref shadow_caster_textured_fs {}
+
+            texture_unit
+            {
+                filtering linear linear none
+            }
+        }
+    }
+}
+
+material shadow-caster-textured-oes
+{
+    technique
+    {
+        pass
+        {
+            scene_blend src_alpha one_minus_src_alpha
+
+            depth_check off
+            depth_write off
+
+            vertex_program_ref shadow_textured_vs {}
+            fragment_program_ref shadow_caster_textured_oes_fs {}
+
+            texture_unit
+            {
+                filtering linear linear none
+            }
+        }
+    }
+}

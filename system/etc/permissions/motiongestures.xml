@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- enables applications to query for this software feature
+         through PackageManager. This must be consistent with
+         the value of GestureManager.FEATURE_MOTION_GESTURES -->
+    <feature name="com.amazon.software.motiongestures" />
+    <library name="com.amazon.motiongestures"
+             file="/system/framework/com.amazon.motiongestures.jar"/>
+</permissions>

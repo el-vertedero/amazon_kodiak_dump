@@ -1,0 +1,28 @@
+<stateMachine version="1.1" xmlns="http://amazon.com/schemas/euclid/stateMachine">
+    <states>
+        <state name="hide" />
+        <state name="show" />
+    </states>
+    <transitions>
+        <transition from="hide" to="show">
+            <sequenceRef name="hide_to_show" />
+        </transition>
+        <transition from="show" to="hide">
+            <sequenceRef name="show_to_hide" />
+        </transition>
+    </transitions>
+    <sequences>
+        <sequence name="hide_to_show" weight="1">
+            <actions>
+                <playAnimation target="show" />
+                <setState target="show" />
+            </actions>
+        </sequence>
+        <sequence name="show_to_hide" weight="1">
+            <actions>
+                <playAnimation target="hide" />
+                <setState target="hide" />
+            </actions>
+        </sequence>
+    </sequences>
+</stateMachine>

@@ -1,0 +1,683 @@
+<VblResources vbl="badges">
+    <Textures>
+        <Texture id="0" name="Audio_icons" format="rgba8888" width="512" height="512" size="262144" />
+        <Texture id="1" name="euclid_placeholder_image" format="rgb888" width="4" height="4" size="8" />
+        <Texture id="2" name="badges_blank" format="rgb888" width="256" height="256" size="32768" />
+        <Texture id="3" name="texture_badge" format="rgb888" width="64" height="64" size="2048" />
+        <Texture id="4" name="texture_sms_orange_128" format="rgb888" width="128" height="128" size="8192" />
+    </Textures>
+    <Scenes>
+        <Scene id="0" name="bdg_magic-camera-captured">
+            <Meshes>
+                <Mesh id="0" name="bdg_magic-camera-captured" vertex_count="430" triangle_count="324" joint_count="0" submesh_count="2" size="15704" />
+            </Meshes>
+            <Animations />
+            <Textures />
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="bdg_magic-camera-captured_orange" />
+                <Material id="1" name="bdg_magic-camera-captured_white" />
+            </Materials>
+        </Scene>
+        <Scene id="1" name="bdg_cornersash_audio_big">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_audio_big" vertex_count="80" triangle_count="38" joint_count="3" submesh_count="3" size="2788" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_audio_big" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_audio_big_conersash_mat" />
+                <Material id="1" name="bdg_cornersash_audio_big_pasted__conersash_mat1" />
+            </Materials>
+        </Scene>
+        <Scene id="2" name="bdg_cornersash_audio_big_new_s">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_audio_big_new_s" vertex_count="160" triangle_count="80" joint_count="3" submesh_count="2" size="5600" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_audio_big_new_s" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_audio_big_new_s_conersash_mat" />
+                <Material id="1" name="bdg_cornersash_audio_big_new_s_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="3" name="bdg_cornersash_audio_small">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_audio_small" vertex_count="78" triangle_count="36" joint_count="0" submesh_count="2" size="2712" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="bdg_cornersash_audio_small_conersash_mat" />
+                <Material id="1" name="bdg_cornersash_audio_small_pasted__conersash_mat1" />
+            </Materials>
+        </Scene>
+        <Scene id="4" name="bdg_cornersash_audio_small_new_s">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_audio_small_new_s" vertex_count="160" triangle_count="80" joint_count="3" submesh_count="2" size="5600" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_audio_small_new_s" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_audio_small_new_s_conersash_mat" />
+                <Material id="1" name="bdg_cornersash_audio_small_new_s_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="5" name="bdg_cornersash_black_ap">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_black_ap" vertex_count="84" triangle_count="44" joint_count="0" submesh_count="1" size="2952" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>2</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="bdg_cornersash_black_ap_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="6" name="bdg_cornersash_blue_ap">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_blue_ap" vertex_count="84" triangle_count="44" joint_count="1" submesh_count="1" size="2952" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="4" size="88" />
+            </Animations>
+            <Textures>
+                <Uses-texture>2</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_blue_ap" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_blue_ap_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="7" name="bdg_cornersash_book_big">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_book_big" vertex_count="80" triangle_count="38" joint_count="3" submesh_count="3" size="2788" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_book_big" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_book_big_conersash_mat" />
+                <Material id="1" name="bdg_cornersash_book_big_conersash_mat1" />
+            </Materials>
+        </Scene>
+        <Scene id="8" name="bdg_cornersash_book_big_new_s">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_book_big_new_s" vertex_count="160" triangle_count="80" joint_count="3" submesh_count="2" size="5600" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_book_big_new_s" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_book_big_new_s_conersash_mat" />
+                <Material id="1" name="bdg_cornersash_book_big_new_s_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="9" name="bdg_cornersash_book_small">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_book_small" vertex_count="78" triangle_count="36" joint_count="0" submesh_count="2" size="2712" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="bdg_cornersash_book_small_conersash_mat" />
+                <Material id="1" name="bdg_cornersash_book_small_pasted__conersash_mat1" />
+            </Materials>
+        </Scene>
+        <Scene id="10" name="bdg_cornersash_book_small_new_s">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_book_small_new_s" vertex_count="160" triangle_count="80" joint_count="3" submesh_count="2" size="5600" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_book_small_new_s" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_book_small_new_s_conersash_mat" />
+                <Material id="1" name="bdg_cornersash_book_small_new_s_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="11" name="bdg_cornersash_green_ap">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_green_ap" vertex_count="84" triangle_count="44" joint_count="0" submesh_count="1" size="2952" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>2</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="bdg_cornersash_green_ap_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="12" name="bdg_cornersash_new_l">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_new_l" vertex_count="56" triangle_count="28" joint_count="2" submesh_count="1" size="1960" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="x" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_new_l" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_new_l_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="13" name="bdg_cornersash_new_m">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_new_m" vertex_count="56" triangle_count="28" joint_count="2" submesh_count="1" size="1960" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_new_m" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_new_m_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="14" name="bdg_cornersash_new_s">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_new_s" vertex_count="84" triangle_count="44" joint_count="1" submesh_count="1" size="2952" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="4" size="88" />
+            </Animations>
+            <Textures>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_new_s" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_new_s_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="15" name="bdg_cornersash_qr-code">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_qr-code" vertex_count="677" triangle_count="395" joint_count="0" submesh_count="1" size="24034" />
+            </Meshes>
+            <Animations />
+            <Textures />
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="bdg_cornersash_qr-code_glyphmat" />
+            </Materials>
+        </Scene>
+        <Scene id="16" name="bdg_cornersash_sample_l">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_sample_l" vertex_count="56" triangle_count="28" joint_count="2" submesh_count="1" size="1960" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="d" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_sample_l" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_sample_l_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="17" name="bdg_cornersash_sample_m">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_sample_m" vertex_count="56" triangle_count="28" joint_count="2" submesh_count="1" size="1960" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="x" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_sample_m" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_sample_m_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="18" name="bdg_cornersash_sample_s">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_sample_s" vertex_count="84" triangle_count="44" joint_count="0" submesh_count="1" size="2952" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="bdg_cornersash_sample_s_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="19" name="bdg_cornersash_saved_l">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_saved_l" vertex_count="56" triangle_count="28" joint_count="2" submesh_count="1" size="1960" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="d" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_saved_l" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_saved_l_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="20" name="bdg_cornersash_saved_m">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_saved_m" vertex_count="56" triangle_count="28" joint_count="2" submesh_count="1" size="1960" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="x" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_saved_m" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_saved_m_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="21" name="bdg_cornersash_saved_s">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_saved_s" vertex_count="84" triangle_count="44" joint_count="0" submesh_count="1" size="2952" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="bdg_cornersash_saved_s_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="22" name="bdg_favorite-horizontal">
+            <Meshes>
+                <Mesh id="0" name="bdg_favorite-horizontal" vertex_count="208" triangle_count="104" joint_count="3" submesh_count="2" size="7280" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="anim_active" track_count="12" size="440" />
+                <Animation id="1" name="anim_inactive" track_count="12" size="440" />
+            </Animations>
+            <Textures />
+            <StateMachines>
+                <StateMachine id="0" name="sm_favorite_badge" />
+            </StateMachines>
+            <Skeletons>
+                <Skeleton id="0" name="bdg_favorite-horizontal" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_favorite-horizontal_sash_mat" />
+                <Material id="1" name="bdg_favorite-horizontal_star_mat" />
+            </Materials>
+        </Scene>
+        <Scene id="23" name="bdg_favorite">
+            <Meshes>
+                <Mesh id="0" name="bdg_favorite" vertex_count="208" triangle_count="104" joint_count="3" submesh_count="2" size="7280" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="anim_active" track_count="12" size="440" />
+                <Animation id="1" name="anim_inactive" track_count="12" size="440" />
+            </Animations>
+            <Textures />
+            <StateMachines>
+                <StateMachine id="0" name="sm_favorite_badge" />
+            </StateMachines>
+            <Skeletons>
+                <Skeleton id="0" name="bdg_favorite" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_favorite_badge_mat" />
+                <Material id="1" name="bdg_favorite_star_mat" />
+            </Materials>
+        </Scene>
+        <Scene id="24" name="bdg_hd">
+            <Meshes>
+                <Mesh id="0" name="bdg_hd" vertex_count="78" triangle_count="44" joint_count="1" submesh_count="1" size="2760" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="growdepth" track_count="4" size="88" />
+            </Animations>
+            <Textures>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_hd" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_hd_hdmat" />
+            </Materials>
+        </Scene>
+        <Scene id="25" name="bdg_hdprime">
+            <Meshes>
+                <Mesh id="0" name="bdg_hdprime" vertex_count="88" triangle_count="44" joint_count="1" submesh_count="2" size="3080" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="growdepth" track_count="4" size="88" />
+            </Animations>
+            <Textures>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_hdprime" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_hdprime_hdmat" />
+                <Material id="1" name="bdg_hdprime_primemat" />
+            </Materials>
+        </Scene>
+        <Scene id="26" name="bdg_prime">
+            <Meshes>
+                <Mesh id="0" name="bdg_prime" vertex_count="79" triangle_count="44" joint_count="1" submesh_count="1" size="2792" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="growdepth" track_count="4" size="88" />
+            </Animations>
+            <Textures>
+                <Uses-texture>1</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_prime" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_prime_primemat" />
+            </Materials>
+        </Scene>
+        <Scene id="27" name="bdg_label">
+            <Meshes>
+                <Mesh id="0" name="bdg_label" vertex_count="52" triangle_count="26" joint_count="3" submesh_count="1" size="1820" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="open" track_count="16" size="352" />
+            </Animations>
+            <Textures />
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_label" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_label_labelmat" />
+            </Materials>
+        </Scene>
+        <Scene id="28" name="badg_left_panel">
+            <Meshes>
+                <Mesh id="0" name="badg_left_panel" vertex_count="135" triangle_count="66" joint_count="0" submesh_count="2" size="4716" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>3</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="badg_left_panel_percentagemat" />
+            </Materials>
+        </Scene>
+        <Scene id="29" name="cntrl_numeric">
+            <Meshes>
+                <Mesh id="0" name="cntrl_numeric" vertex_count="329" triangle_count="362" joint_count="4" submesh_count="1" size="12700" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="growwidth" track_count="28" size="2552" />
+                <Animation id="1" name="hide" track_count="28" size="4312" />
+                <Animation id="2" name="show" track_count="28" size="4224" />
+            </Animations>
+            <Textures />
+            <StateMachines>
+                <StateMachine id="0" name="sm_numeric" />
+            </StateMachines>
+            <Skeletons>
+                <Skeleton id="0" name="cntrl_numeric" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="cntrl_numeric_exteriormat" />
+            </Materials>
+        </Scene>
+        <Scene id="30" name="cntrl_numeric_tabbar">
+            <Meshes>
+                <Mesh id="0" name="cntrl_numeric_tabbar" vertex_count="355" triangle_count="400" joint_count="3" submesh_count="1" size="13760" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="growwidth" track_count="24" size="2464" />
+                <Animation id="1" name="hide" track_count="24" size="3300" />
+                <Animation id="2" name="show" track_count="24" size="3212" />
+            </Animations>
+            <Textures />
+            <StateMachines>
+                <StateMachine id="0" name="sm_numeric" />
+            </StateMachines>
+            <Skeletons>
+                <Skeleton id="0" name="cntrl_numeric_tabbar" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="cntrl_numeric_tabbar_exteriormat" />
+            </Materials>
+        </Scene>
+        <Scene id="31" name="bdg_percentage">
+            <Meshes>
+                <Mesh id="0" name="bdg_percentage" vertex_count="234" triangle_count="292" joint_count="8" submesh_count="1" size="9240" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="show" track_count="40" size="3564" />
+                <Animation id="1" name="hide" track_count="40" size="2948" />
+                <Animation id="2" name="idle" track_count="40" size="880" />
+            </Animations>
+            <Textures>
+                <Uses-texture>4</Uses-texture>
+            </Textures>
+            <StateMachines>
+                <StateMachine id="0" name="sm_percentage" />
+            </StateMachines>
+            <Skeletons>
+                <Skeleton id="0" name="bdg_percentage" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_percentage_percentagemat" />
+            </Materials>
+        </Scene>
+        <Scene id="32" name="bdg_percentage_audio">
+            <Meshes>
+                <Mesh id="0" name="bdg_percentage_audio" vertex_count="260" triangle_count="292" joint_count="0" submesh_count="2" size="10072" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>4</Uses-texture>
+                <Uses-texture>0</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="bdg_percentage_audio_percentagemat" />
+                <Material id="1" name="bdg_percentage_audio_phong1" />
+            </Materials>
+        </Scene>
+        <Scene id="33" name="bdg_percentage_book">
+            <Meshes>
+                <Mesh id="0" name="bdg_percentage_book" vertex_count="260" triangle_count="292" joint_count="0" submesh_count="2" size="10072" />
+            </Meshes>
+            <Animations />
+            <Textures>
+                <Uses-texture>4</Uses-texture>
+                <Uses-texture>0</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons />
+            <Materials>
+                <Material id="0" name="bdg_percentage_book_percentagemat" />
+                <Material id="1" name="bdg_percentage_book_phong1" />
+            </Materials>
+        </Scene>
+        <Scene id="34" name="bdg_cornersash_audio_big_new">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_audio_big_new" vertex_count="160" triangle_count="80" joint_count="3" submesh_count="2" size="5600" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+                <Uses-texture>2</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_audio_big_new" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_audio_big_new_conersash_mat" />
+                <Material id="1" name="bdg_cornersash_audio_big_new_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="35" name="bdg_cornersash_audio_small_new">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_audio_small_new" vertex_count="160" triangle_count="80" joint_count="3" submesh_count="2" size="5600" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>2</Uses-texture>
+                <Uses-texture>0</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_audio_small_new" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_audio_small_new_conersash_mat" />
+                <Material id="1" name="bdg_cornersash_audio_small_new_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="36" name="bdg_cornersash_book_small_new">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_book_small_new" vertex_count="160" triangle_count="80" joint_count="3" submesh_count="2" size="5600" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+                <Uses-texture>2</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_book_small_new" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_book_small_new_conersash_mat" />
+                <Material id="1" name="bdg_cornersash_book_small_new_cornersashmat" />
+            </Materials>
+        </Scene>
+        <Scene id="37" name="bdg_cornersash_book_big_new">
+            <Meshes>
+                <Mesh id="0" name="bdg_cornersash_book_big_new" vertex_count="160" triangle_count="80" joint_count="3" submesh_count="2" size="5600" />
+            </Meshes>
+            <Animations>
+                <Animation id="0" name="depth" track_count="12" size="264" />
+            </Animations>
+            <Textures>
+                <Uses-texture>0</Uses-texture>
+                <Uses-texture>2</Uses-texture>
+            </Textures>
+            <StateMachines />
+            <Skeletons>
+                <Skeleton id="0" name="bdg_cornersash_book_big_new" />
+            </Skeletons>
+            <Materials>
+                <Material id="0" name="bdg_cornersash_book_big_new_conersash_mat" />
+                <Material id="1" name="bdg_cornersash_book_big_new_cornersashmat" />
+            </Materials>
+        </Scene>
+    </Scenes>
+</VblResources>
